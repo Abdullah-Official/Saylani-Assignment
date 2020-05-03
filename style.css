@@ -1,0 +1,89 @@
+.nav-item:hover{
+    background-color: #316DC3;
+    color: white;
+    border-radius: 80px;
+    
+
+    
+    transition: 0.8s all;
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    color: white;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+      color: white;
+  }
+
+  .carousel-fade .carousel-item {
+    opacity: 0;
+    transition-duration: .6s;
+    transition-property: opacity;
+   }
+   
+   .carousel-fade  .carousel-item.active,
+   .carousel-fade  .carousel-item-next.carousel-item-left,
+   .carousel-fade  .carousel-item-prev.carousel-item-right {
+     opacity: 1;
+   }
+
+   .affix {
+    top: 20px;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .navbar{
+    background-attachment: fixed;
+  }
+  body{
+    overflow-x: hidden;
+  }
+  #icons{
+    list-style: none;
+    display: inline-block;
+  }
+  
+
+.scrollToTop{
+  background-color: brown;
+  width: 800px;
+  height: 600px;
+
+}
+.Top{
+  background-color: #316DC3;
+}
+hr {
+  position: relative;
+  border: none;
+  border-bottom: 1px solid #aaa;
+  overflow: visible;
+}
+hr:before {
+  position: absolute;
+  left: 0;
+  width: 50%;
+  content: '';
+  height: 2px;
+  background: green;
+  top: -1px;
+}
+  .add{
+    color: green;
+  }
+  .conct{
+    background-color: #316DC3;
+    padding: 10px;
+    color: #fff;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+  }
